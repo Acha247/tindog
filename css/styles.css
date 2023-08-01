@@ -1,0 +1,166 @@
+/*HTML-ELEMENTS*/
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+/*IDS*/
+
+#title{
+    background-color: #ff4c68;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+#testimonials{
+    padding: 7%  15%;
+    background-color: #ef8172;
+    color: #fff;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+#pricing{
+    padding: 100px;
+}
+#cta{
+    background-color: #ff4c68;
+}
+#footer{
+    margin: 40px 13px;
+    padding: 40px 13px;
+    background-color: #fff;
+}
+
+
+/*HEADINGS*/
+.first-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;
+}
+.heading3{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    padding-top: 3%;
+}
+.cta-header{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #FFF;
+    margin-top: 20px;
+    line-height: 1.5;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+ 
+/*NAV-BAR*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/*BUTTONS*/
+.download-button{
+    margin: 5% 3% 5% 0;
+    
+}
+.tech{
+    margin: 40px 15px;
+}
+ /*IMAGES*/
+.rotateMobile{  
+ width: 18%;   
+ transform: rotate(25deg);
+ position: absolute;
+ right: 30%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 10px 10px;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+.row{
+    padding-top: 10%;
+}
+.para{
+    color: #8f8f8f
+}
+.icon{
+    color: #ef8172;
+    font-size: 4rem;
+   
+}
+.icon:hover{
+    color:#ff4c68
+}
+.card-button{
+    width: 100%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.fap{
+    padding-right: 20px;
+    font-size: 2rem;
+}
+.terra{
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+@media (max-width: 1028px ){
+    .rotateMobile{
+        position: static;
+        transform: rotate(0);
+    }
+    .press-logo{
+        width: 20%;
+    }
+    #title{
+        text-align: center;
+    }
+    .testimonial-text{
+        font-size: 13px;
+    }
+    .cta-header{
+        font-size: 1.75rem;
+        margin-top: 15px;
+    }
+}
